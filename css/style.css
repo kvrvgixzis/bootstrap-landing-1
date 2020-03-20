@@ -38,19 +38,22 @@
 .navbar-toggle .icon-bar { background-color: white; }
 
 .main-header {
+    position: relative;
     background-image: url(../images/Image.png);
     background-size: cover;
     background-position: center;
     width: 100%;
-    min-height: 500px;
-    padding-bottom: 10%;
-    padding-top: 10%;
+    min-height: 700px;
 }
 
 .intro-text {
     margin: auto auto;
     color: white;
     text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 h1, h2 { font-family: "Open Sans ExtraBold"; }
@@ -59,7 +62,11 @@ h1, h2 { font-family: "Open Sans ExtraBold"; }
     font-size: 4em;
     font-weight: bold;
     letter-spacing: 0.3em;
-    margin: 10px 10px;
+    margin: 5px 5px;
+}
+@media (max-width: 767px){
+    .intro-text__h1 { font-size: 2.5em; }
+    .intro-text__h3 { font-size: 1.5em; }
 }
 
 .intro-text img { margin: 5%; }
@@ -78,13 +85,65 @@ h1, h2 { font-family: "Open Sans ExtraBold"; }
 .about {
     min-height: 500px;
     text-align: center;
-    padding-bottom: 10%;
-    padding-top: 10%;
 }
 .about h2 {
+    margin-top: 2em;
     color: rgb(2, 145, 140);
 }
 .about .about__text {
-    max-width: 40%;
+    max-width: 80%;
     margin: 0 auto;
+}
+.about .about__row {
+    max-width: 80%;
+    margin: 50px auto;
+}
+.about .about__row .img-holder {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+.about .about__row img {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+}
+.about .about__row h4 {
+    font-weight: bold;
+    font-size: 1em;
+}
+.about .about__row p {
+    font-size: 0.8em;
+    margin: 0 30% 0 30%;
+    padding-bottom: 40px;
+}
+.cols-with-lines-right {
+    border-left-style: none;
+}
+@media (min-width: 992px) {
+    .about .about__row p {
+        margin: 0 10% 0 10%;  
+    }
+    .cols-with-lines {
+        border: gray solid 1px;
+        border-top-style: none;
+        border-bottom-style: none;
+    }
+    .cols-with-lines-right {
+        border-left-style: none;
+    }
+} 
+
+.services {
+    position: relative;
+    background-image: url(../images/Bg.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 700px;
+}
+.services h2 {
+    margin-top: 2em;
+    color: rgb(2, 145, 140);
 }
