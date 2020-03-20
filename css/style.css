@@ -17,8 +17,13 @@ body {
 
 .navbar {
     background: darkcyan;
+    margin-bottom: 0 !important;
 }
-.navbar-brand { color: white !important;}
+.navbar-brand { 
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white !important;
+}
 .navbar-nav>li>a {
     color: white;
     font-weight: bold;
@@ -27,4 +32,27 @@ body {
 
 .navbar-toggle .icon-bar {
     background-color: white;
+}
+
+.intro-text {}
+
+.first-row-text {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.second-row-text {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.main-header {
+    background-image: url(../images/Image.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 500px;
+    padding-bottom: 10%;
+    padding-top: 10%;
 }
