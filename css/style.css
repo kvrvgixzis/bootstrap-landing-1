@@ -15,25 +15,16 @@ body {
     width: 100%;
 }
 
-.header {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    width: 100%;
-    height: 70px;
+.navbar {
     background: darkcyan;
 }
-
-.nav-bar {
-    display: flex;
-    height: 100%;
-}
-.nav-bar .btn {
-    height: 100%;
-    background: transparent;
+.navbar-brand { color: white !important;}
+.navbar-nav>li>a {
     color: white;
     font-weight: bold;
-    font-size: 12pt;
     text-transform: uppercase;
-    flex-wrap: wrap;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: white;
 }
