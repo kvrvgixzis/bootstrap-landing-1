@@ -21,36 +21,21 @@
 }
 
 .navbar {
-    background: darkcyan;
+    background: rgb(2, 145, 140);
     margin-bottom: 0 !important;
 }
 .navbar-brand { 
     font-family: "Open Sans ExtraBold";
     text-transform: uppercase;
-    font-weight: bold;
     color: white !important;
 }
 .navbar-nav>li>a {
     color: white;
     font-family: "Open Sans ExtraBold";
-    font-weight: bold;
     text-transform: uppercase;
 }
 
-.navbar-toggle .icon-bar {
-    background-color: white;
-}
-
-.first-row-text {
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-}
-.second-row-text {
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-}
+.navbar-toggle .icon-bar { background-color: white; }
 
 .main-header {
     background-image: url(../images/Image.png);
@@ -63,16 +48,18 @@
 }
 
 .intro-text {
+    margin: auto auto;
     color: white;
     text-align: center;
 }
 
-h1 { font-family: "Open Sans ExtraBold"; }
+h1, h2 { font-family: "Open Sans ExtraBold"; }
 
 .intro-text__h1 {
     font-size: 4em;
     font-weight: bold;
     letter-spacing: 0.3em;
+    margin: 10px 10px;
 }
 
 .intro-text img { margin: 5%; }
@@ -82,8 +69,22 @@ h1 { font-family: "Open Sans ExtraBold"; }
     font-weight: bold;
     display: block;
     margin: 0 auto;
-    width: fit-content;
-    padding: 10px;
+    width: 150px;
+    padding: 8px;
     color: black;
     background-image: url(../images/Rectangle\ 1.png);
+}
+
+.about {
+    min-height: 500px;
+    text-align: center;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+.about h2 {
+    color: rgb(2, 145, 140);
+}
+.about .about__text {
+    max-width: 40%;
+    margin: 0 auto;
 }
