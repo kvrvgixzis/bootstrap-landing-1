@@ -172,6 +172,7 @@ h1, h2 { font-family: "Open Sans ExtraBold"; }
     height: 300px;
     background-size: cover;
 }
+
 .my-work__col-1 { background-image: url(../images/Image1.png); }
 .my-work__col-2 { background-image: url(../images/Image2.png); }
 .my-work__col-3 { background-image: url(../images/Image3.png); }
@@ -190,6 +191,10 @@ h1, h2 { font-family: "Open Sans ExtraBold"; }
     padding-top: 80px;
     padding-left: 10px;
     padding-right: 10px;
+    display: none;
+}
+.my-work__col:hover .my-work__image-hover {
+    display: block;
 }
 .my-work__image-hover h4 {
     font-weight: bold;
