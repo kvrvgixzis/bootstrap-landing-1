@@ -111,10 +111,10 @@ h1, h2 { font-family: "Open Sans ExtraBold"; }
 }
 .about .about__row h4 {
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 .about .about__row p {
-    font-size: 0.8em;
+    font-size: 1em;
     margin: 0 30% 0 30%;
     padding-bottom: 40px;
 }
@@ -140,10 +140,42 @@ h1, h2 { font-family: "Open Sans ExtraBold"; }
     background-image: url(../images/Bg.png);
     background-size: cover;
     background-position: center;
-    width: 100%;
     min-height: 700px;
+}
+.services__block {
+    width: 90%;
+    margin: 0 auto;
+    text-align-last: left;
 }
 .services h2 {
     margin-top: 2em;
     color: rgb(2, 145, 140);
+}
+.services__row {
+    /* max-width: 80%; */
+    margin: 50px auto;
+}
+.services__row h4 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.services__row p {
+    font-size: 1em;
+    padding-bottom: 40px;
+    padding-right: 10px;
+}
+.services__column {
+    margin: 0;
+    padding: 0;
+}
+.services__row .img-holder {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 0 0 30px;
+}
+.services__row img {
+    position: absolute;
+    top: 50%; left: 0;
+    transform: translate(-50%,-50%);
 }
