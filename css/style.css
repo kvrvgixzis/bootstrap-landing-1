@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic');
 * {
     margin: 0;
     padding: 0;
@@ -14,10 +13,7 @@
 .row { margin: 0; }
 .h1, .h2, .h3, h1, h2, h3 { margin-top: 10px; margin-bottom: 10px; }
 h1, h2 { font-family: "Open Sans ExtraBold"; }
-.navbar {
-    background: rgb(2, 145, 140);
-    margin-bottom: 0 !important;
-}
+.navbar { background: rgb(2, 145, 140); margin-bottom: 0 !important; }
 .navbar-brand { 
     font-family: "Open Sans ExtraBold";
     text-transform: uppercase;
@@ -67,22 +63,10 @@ h1, h2 { font-family: "Open Sans ExtraBold"; }
     color: black;
     background-image: url(../images/Rectangle\ 1.png);
 }
-.about {
-    min-height: 500px;
-    text-align: center;
-}
-.about h2 {
-    margin-top: 2em;
-    color: rgb(2, 145, 140);
-}
-.about .about__text {
-    max-width: 80%;
-    margin: 0 auto;
-}
-.about .about__row {
-    max-width: 80%;
-    margin: 50px auto;
-}
+.about { min-height: 500px; text-align: center; }
+.about h2 { margin-top: 2em; color: rgb(2, 145, 140); }
+.about .about__text { max-width: 80%; margin: 0 auto; }
+.about .about__row { max-width: 80%; margin: 50px auto; }
 .about .about__row .img-holder {
     position: relative;
     width: 80px;
@@ -94,10 +78,7 @@ h1, h2 { font-family: "Open Sans ExtraBold"; }
     top: 50%; left: 50%;
     transform: translate(-50%,-50%);
 }
-.about .about__row h4 {
-    font-weight: bold;
-    font-size: 1.5em;
-}
+.about .about__row h4 { font-weight: bold; font-size: 1.5em; }
 .about .about__row p {
     font-size: 1em;
     margin: 0 30% 0 30%;
@@ -125,10 +106,7 @@ h1, h2 { font-family: "Open Sans ExtraBold"; }
     margin: 0 auto;
     text-align-last: left;
 }
-.services h2 {
-    margin-top: 2em;
-    color: rgb(2, 145, 140);
-}
+.services h2 { margin-top: 2em; color: rgb(2, 145, 140); }
 .services__row { margin: 0 auto; }
 .services__row h4 {
     font-weight: bold;
@@ -154,10 +132,7 @@ h1, h2 { font-family: "Open Sans ExtraBold"; }
     transform: translate(-50%,-50%);
 }
 .my-work { text-align: center; }
-.my-work h2 {
-    margin-top: 2em;
-    color: rgb(2, 145, 140);
-}
+.my-work h2 { margin-top: 2em; color: rgb(2, 145, 140); }
 .my-work p {
     font-size: 1em;
     padding-right: 10px;
@@ -168,11 +143,7 @@ h1, h2 { font-family: "Open Sans ExtraBold"; }
     margin: 0 auto !important;
     padding-bottom: 4em;
 }
-.my-work__col {
-    height: 300px;
-    background-size: cover;
-}
-
+.my-work__col { height: 300px; background-size: cover; }
 .my-work__col-1 { background-image: url(../images/Image1.png); }
 .my-work__col-2 { background-image: url(../images/Image2.png); }
 .my-work__col-3 { background-image: url(../images/Image3.png); }
@@ -193,31 +164,15 @@ h1, h2 { font-family: "Open Sans ExtraBold"; }
     padding-right: 10px;
     display: none;
 }
-#myCarousel {
-    display: none;
-}
+#myCarousel { display: none; }
 @media (max-width: 767px){
-    #myCarousel {
-        display: block;
-    }
-    .my-work__col {
-        display: none;
-    }
+    #myCarousel { display: block; }
+    .my-work__col { display: none; }
 }
-.carousel-caption {
-    background-image: url(../images/bluetransparent.png);
-}
-.item {
-    object-fit: cover;
-}
-.item>img {
-    width: 100%;
-    height: 300px;
-}
-
-.my-work__col:hover .my-work__image-hover {
-    display: block;
-}
+.carousel-caption { background-image: url(../images/bluetransparent.png); }
+.item { object-fit: cover; }
+.item>img { width: 100%; height: 300px; }
+.my-work__col:hover .my-work__image-hover { display: block; }
 .my-work__image-hover h4 {
     font-weight: bold;
     font-size: 1.5em;
@@ -230,13 +185,8 @@ h1, h2 { font-family: "Open Sans ExtraBold"; }
     padding-right: 10px;
     padding-left: 10px;
 }
-.contact-me {
-    text-align: center;
-}
-.contact-me h2 {
-    margin-top: 2em;
-    color: rgb(2, 145, 140);
-}
+.contact-me { text-align: center; }
+.contact-me h2 { margin-top: 2em; color: rgb(2, 145, 140); }
 .contact-me p {
     font-size: 1em;
     padding-right: 10px;
@@ -247,10 +197,7 @@ h1, h2 { font-family: "Open Sans ExtraBold"; }
     margin: 0 auto !important;
     padding-bottom: 4em;
 }
-.contact-me__inputs-holder {
-    background: #0b0b0b;
-    padding: 50px;
-}
+.contact-me__inputs-holder { background: #0b0b0b; padding: 50px; }
 .form-control {
     width: 60% !important;
     margin: 50px auto;
@@ -261,10 +208,7 @@ h1, h2 { font-family: "Open Sans ExtraBold"; }
     border-left-style: none;
     border-right-style: none;
 }
-.fc-ta {
-    border-top-style: solid;
-    width: 70% !important;
-}
+.fc-ta { border-top-style: solid; width: 70% !important; }
 footer {
     color: whitesmoke;
     background: black;
