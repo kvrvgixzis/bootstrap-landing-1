@@ -171,7 +171,7 @@ h1, h2 { font-family: "Open Sans ExtraBold"; }
 }
 .carousel-caption { background-image: url(../images/bluetransparent.png); }
 .item { object-fit: cover; }
-.item>img { width: 100%; height: 300px; }
+.item>img { width: 100%; height: 100%; }
 .my-work__col:hover .my-work__image-hover { display: block; }
 .my-work__image-hover h4 {
     font-weight: bold;
