@@ -18,6 +18,8 @@ h1, h2 { font-family: "Open Sans ExtraBold"; }
 .navbar-brand, .navbar-nav>li>a {
     text-shadow: none !important;
 }
+
+
 .navbar-brand { 
     font-family: "Open Sans ExtraBold";
     text-transform: uppercase;
@@ -29,6 +31,8 @@ h1, h2 { font-family: "Open Sans ExtraBold"; }
     text-transform: uppercase;
 }
 .navbar-toggle .icon-bar { background-color: white; }
+
+
 .main-header {
     position: relative;
     background-image: url(../images/Image.png);
@@ -67,6 +71,8 @@ h1, h2 { font-family: "Open Sans ExtraBold"; }
     color: black;
     background-image: url(../images/Rectangle\ 1.png);
 }
+
+
 .about { min-height: 500px; text-align: center; }
 .about h2 { margin-top: 2em; color: rgb(2, 145, 140); }
 .about .about__text { max-width: 80%; margin: 0 auto; }
@@ -98,6 +104,8 @@ h1, h2 { font-family: "Open Sans ExtraBold"; }
     }
     .cols-with-lines-right { border-left-style: none; }
 } 
+
+
 .services {
     position: relative;
     background-image: url(../images/Bg.png);
@@ -135,6 +143,8 @@ h1, h2 { font-family: "Open Sans ExtraBold"; }
     top: 50%; left: 0;
     transform: translate(-50%,-50%);
 }
+
+
 .my-work { text-align: center; }
 .my-work h2 { margin-top: 2em; color: rgb(2, 145, 140); }
 .my-work p {
@@ -189,6 +199,8 @@ h1, h2 { font-family: "Open Sans ExtraBold"; }
     padding-right: 10px;
     padding-left: 10px;
 }
+
+
 .contact-me { text-align: center; }
 .contact-me h2 { margin-top: 2em; color: rgb(2, 145, 140); }
 .contact-me p {
@@ -213,6 +225,8 @@ h1, h2 { font-family: "Open Sans ExtraBold"; }
     border-right-style: none;
 }
 .fc-ta { border-top-style: solid; width: 70% !important; }
+
+
 footer {
     color: whitesmoke;
     background: black;
